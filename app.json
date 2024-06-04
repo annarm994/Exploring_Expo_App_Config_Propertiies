@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "ExpoConfigDemo",
+    "slug": "expoconfigdemo",
+    "description": "A demo app to explore Expo app configuration",  
+    "owner": "annarm994",
+    "privacy": "public",  
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "com.yourcompany.expoconfigdemo",
+      "icon": "./assets/icon-ios.png"
+    },
+    "android": {
+      "package": "com.yourcompany.expoconfigdemo",
+      "icon": "./assets/icon-android.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "fallbackToCacheTimeout": 30000
+    }
+  }
